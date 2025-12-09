@@ -25,5 +25,4 @@ Metazoa-COI-Leray-Geller	Metazoa		COI		GGWACWGGWTGAACWGTWTAYCCYCC	TANACYTCNGGRTG
 MarineMammal-Dloop-Baker	Marine mammals		D-loop		TCACCCAAAGCTGRARTTCTA	GCGGGTTGCTGGTTTCACG	Baker-M13dlp1.5-H	Baker-Oordlp4	M13dlp1.5	Oordlp4	https://doi.org/10.1046/j.1365-294x.1998.00380.x | https://doi.org/10.3389/fmars.2018.00133	https://doi.org/10.1046/j.1365-294x.1998.00380.x | https://doi.org/10.3389/fmars.2018.00133
 Eukarya-ITS-White-Sterling	Eukarya	Fungi | diatoms	ITS1-ITS2		TCCGTAGGTGAACCTGCGG	CATCCACCGCTGAAAGTTGTAA	ITS1-F	ITS1-R-Pn	ITS1-F	Pn-ITS1-R	https://doi.org/10.1002/lno.12189	https://doi.org/10.1002/lno.12189
 Octocoral-mutS-Everett	Octocorallia		mutS		GCTTATCCAGATTGGTAAGTTCTATGAA	ACAGTCCTCTAAATTACAACTAGGAGAATA	Octo-eDNA-Mut2F	Octo-eDNA-Mut2R	Octo_eDNA_Mut2F	Octo_eDNA_Mut2R	https://doi.org/10.1016/j.dsr2.2017.09.008	https://doi.org/10.1016/j.dsr2.2017.09.008
-
 Octocoral-mutS-Paragorgia	Octocorallia	Modified to also target Paragorgia	mutS		GCTTATCCAGATTGGTAAGTTCTATGAA	GCAGTCTTCTAAATTGCAACCGGGAGAATA	Octo-eDNA-Mut2F	Octo-eDNA-MutS-Paragorgia	Octo_eDNA_Mut2F	missing: not provided	https://doi.org/10.1016/j.dsr2.2017.09.008	missing: not provided
