@@ -9,6 +9,7 @@ An assay is defined by the unique combination of forward and reverse PCR primers
 The fields of [assays.tsv](https://github.com/NOAA-Omics/noaa-omics-metabarcoding-assays/blob/main/assays.tsv) are described here:
 
 - `assay_name`: A brief, concise identifier for the assay with no spaces or special characters, ensuring machine readability. Must be unique. Suggest including the targeted taxonomic group, gene, subfragment (if applicable), and author or commonly used name of assay. Source: [FAIRe](https://github.com/FAIR-eDNA/FAIRe_checklist).
+- `assay_name_alternate`: Other names the assay may be called.
 - `targetTaxonomicAssay`: Taxa or species name targeted by the primers. Source: [FAIRe](https://github.com/FAIR-eDNA/FAIRe_checklist).
 - `targetTaxonomicScope`: The taxonomic group(s) targeted in the study. This can differ from the targetTaxonomicAssay. For example, the targetTaxonomicAssay may be "Chordata" while the targetTaxonomicScope is "Chondrichthyes" (bony fish, sharks and rays). Source: [FAIRe](https://github.com/FAIR-eDNA/FAIRe_checklist).
 - `target`: Target taxa, gene and/or molecule for the protocol. Use terms from [NCBITAXON](https://www.ebi.ac.uk/ols/ontologies/ncbitaxon) or [NCIT](https://www.ebi.ac.uk/ols/ontologies/ncit). Source: [MIOP](https://github.com/BeBOP-OBON/miop).
@@ -18,6 +19,7 @@ The fields of [assays.tsv](https://github.com/NOAA-Omics/noaa-omics-metabarcodin
 - `pcr_primer_name_[forward|reverse]`: Standardized primer name, using published name if possible but adding the name of the target gene, target subfragment (if applicable), and in some cases author information. Source: [FAIRe](https://github.com/FAIR-eDNA/FAIRe_checklist).
 - `pcr_primer_name_published_[forward|reverse]`: Published primer name from original publication.
 - `pcr_primer_reference_[forward|reverse]`: Link to original publication (DOI if available) of primer. Source: [FAIRe](https://github.com/FAIR-eDNA/FAIRe_checklist).
+- `assay_reference`: Link to original publication and/or protocol (DOI if available) of assay.
 
 ## Assay Preps
 
