@@ -10,7 +10,7 @@ assay_name	assay_name_alternate	targetTaxonomicAssay	targetTaxonomicScope	target
 	Wilderlab-TD	Invasive Caulerpa tufA					CAACTCGACCAGTTGCTAC	ACTGTGGATAATGCAATACCTTTACCTC	TCF	TCR	TDF	TDR			Wilderlab in house
 	Wilderlab-TP	Vascular plants trnL					GGGCAATCCTGAGCCAA	CCATTGAGTCTCTGCACCTATC	TPF	TPR	trnL-g	trnL-h	https://doi.org/10.1093/nar/gkl938	https://doi.org/10.1093/nar/gkl938	Taberlet et al. 2006
 	Wilderlab-UM	Microbes 16S V5					GGATTAGATACCCTGGTA	CCGTCAATTCMTTTRAGTTT	UMF	UMR	U785F	U907R	https://doi.org/10.1128/JCM.00670-06	https://doi.org/10.1073/pnas.82.20.6955	Morey et al. 2006 | Lane et al. 1985
-	Wilderlab-WG	Venerid clams 16S					TTDTAAAAGMCGAGAAGACCC	CSCTGTTATCCCYRCGGTA	WGF	WGR	Vene01_F	Vene01_R	https://doi.org/10.1007/s10750-020-04260-8	https://doi.org/10.1007/s10750-020-04260-8	Prié et al. 2021
+	Wilderlab-WG	Venerid clams 16S					TTDTAAAAGMCGAGAAGACCC	CSCTGTTATCCCYRCGGTA	WGF	WGR	Vene01_F	Vene01_R	https://doi.org/10.1007/s10750-020-04260-8	https://doi.org/10.1007/s10750-020-04260-8	Pri≈Ω et al. 2021
 	Wilderlab-WO	Oysters 16S					AAGAAGACCCCGTGCARC	CTGTTATCCCCGGCGTAAC	WOF	WOR	NOyster16SF	NOyster16SR	https://doi.org/10.1016/j.ecss.2024.108722	https://doi.org/10.1016/j.ecss.2024.108722	Dugal et al. 2024
 	Wilderlab-WV	Vertebrate 16S					GACGAGAAGACCCTWTGGAGC	CCRYGGTCGCCCCAAC	WVF	WVR	16S_FishSyn_Short forward	16S_FishSyn_Short reverse	https://doi.org/10.1002/edn3.93	https://doi.org/10.1002/edn3.93	Based on Nester et al. 2020
 	Wilderlab-XG	Gobiomorphus fish COI					GCAATYTCCCAGTATCARACACC	GCAGCAAGMACGGGGAG	XGF	XGR	XGF	XGR			Wilderlab in house
