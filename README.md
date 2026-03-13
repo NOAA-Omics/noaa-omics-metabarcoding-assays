@@ -1,12 +1,16 @@
 # NOAA 'Omics Metabarcoding Assays
 
-Metabarcoding assays used for DNA metabarcoding by NOAA 'Omics researchers, using terms from the [FAIRe](https://fair-edna.github.io) standard.
+Metabarcoding assays used for DNA metabarcoding by NOAA 'Omics researchers, using terms from the [FAIRe](https://fair-edna.github.io) standard. This repository provides assay information used by the [Ocean DNA Explorer](https://oceandnaexplorer.org).
 
 ## Assays
 
 An assay is defined by the unique combination of forward and reverse PCR primers, which have fixed data associated with them (taxonomic target, gene, subfragment, amplicon size, primer sequences, primer names, and primer references).
 
-The fields of [assays.tsv](https://github.com/NOAA-Omics/noaa-omics-metabarcoding-assays/blob/main/assays.tsv) are described here:
+- [assays.tsv](https://github.com/NOAA-Omics/noaa-omics-metabarcoding-assays/blob/main/assays.tsv): Lists all assays fully documented and approved to work with Ocean DNA Explorer.
+- [assays_wilderlab.tsv](https://github.com/NOAA-Omics/noaa-omics-metabarcoding-assays/blob/main/assays_wilderlab.tsv): Lists additional assays provided by Wilderlab that are not fully documented (missing information) and are not approved to work with Ocean DNA Explorer.
+- [testprime.tsv](https://github.com/NOAA-Omics/noaa-omics-metabarcoding-assays/blob/main/testprime.tsv): Provides Arb Silva TestPrime results to determine taxonomic scope of assays (primer pairs).
+
+The assay fields are described here:
 
 - `assay_name`: A brief, concise identifier for the assay with no spaces or special characters, ensuring machine readability. Must be unique. Suggest including the targeted taxonomic group, gene, subfragment (if applicable), and author or commonly used name of assay. Source: [FAIRe](https://github.com/FAIR-eDNA/FAIRe_checklist).
 - `assay_name_alternate`: Other names the assay may be called.
@@ -24,6 +28,8 @@ The fields of [assays.tsv](https://github.com/NOAA-Omics/noaa-omics-metabarcodin
 ## Assay Preps
 
 An assay prep contains additional fields whose values can vary from lab to lab. This metadata should be contained in a protocol available online, with the DOI in the field `nucl_acid_amp`. This DOI should be a Zenodo DOI of a BeBOP-formatted protocol, a protocols.io DOI, or some other stable DOI or URL of the protocol.
+
+The assay prep fields are described here:
 
 - `nucl_acid_amp`: Link to assay protocol. Example: https://doi.org/10.5281/zenodo.15636182
 - `ampliconSize`: The length of the amplicon in basepairs *excluding* the primers, adapters, and MIDs. A range can be entered separated by a bar "|" (e.g., "140 | 160"). Units in basepairs.
